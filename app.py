@@ -7,7 +7,7 @@ def get_posts():
     payload = {}
     headers = {}
     response = requests.request("GET", url, headers=headers, data=payload)
-    return "Hello Posts"
+    return "Hello World-----Posts"
 @app.route('/comments')
 def get_comments():
     url = "https://jsonplaceholder.typicode.com/comments"
